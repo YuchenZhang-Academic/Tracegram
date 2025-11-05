@@ -1,2 +1,1 @@
-# LLM3_feature
-用GPT预训练提特征
+# Code for paper `Tracegram: Framing Trace-Level Traffic Analysis with Temporally-Aware Multiple Instance Learning`
