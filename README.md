@@ -1,4 +1,3 @@
-````markdown
 # Tracegram: Framing Trace-Level Traffic Analysis with Temporally-Aware Multiple Instance Learning
 
 <p align="center">
@@ -7,8 +6,6 @@
   <a href="https://github.com/YuchenZhang-Academic/Tracegram"><img src="https://img.shields.io/badge/GitHub-Code-black"></a>
 </p>
 
-
-
 ## Overview
 
 This repository contains the **official implementation of Tracegram**, as presented in:
@@ -16,8 +13,6 @@ This repository contains the **official implementation of Tracegram**, as presen
 > **Jian Qu**, **Yuchen Zhang**, **Jialong Zhang**, **Jianfeng Li**, **Xiaobo Ma**  
 > **Tracegram: Framing Trace-Level Traffic Analysis with Temporally-Aware Multiple Instance Learning**  
 > *Proceedings of the 35th USENIX Security Symposium (USENIX Security 2026)*
-
-
 
 **Tracegram** is a **trace-level network traffic analysis framework** that formulates multi-flow behavioral modeling as **Multiple Instance Learning (MIL)** with explicit **temporal awareness**.
 
@@ -29,7 +24,6 @@ Tracegram addresses these challenges by:
 - Producing **flow-level attribution signals** that support analyst-oriented investigation and forensics.
 
 The framework is **scalable**, **encoder-agnostic**, and operates effectively on **encrypted traffic** using only header and timing information.
-
 
 
 ## Framework
@@ -50,7 +44,6 @@ Tracegram follows a four-stage hierarchical pipeline:
 
 This design avoids the quadratic complexity of monolithic long-sequence Transformers while retaining long-range contextual reasoning across flows.
 
----
 
 ## Repository Structure
 
@@ -152,7 +145,6 @@ This repository is released as a **research reference implementation**.
 * The implementation prioritizes **faithfulness to the methodology described in the paper**, rather than production-level optimization.
 * Some datasets and preprocessing steps are **environment- and deployment-specific**.
 * Reported results in the paper were obtained under controlled experimental settings; exact numerical reproduction may require careful configuration of data splits and parameters.
-
 
 
 ## Citation
